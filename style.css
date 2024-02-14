@@ -164,3 +164,11 @@ button {
     padding: 5px 25px;
     border-radius: 10px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 33px;
+}
