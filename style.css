@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
 }
 
 .header, .hero{
@@ -62,6 +64,7 @@ button {
     font-size: 18px;
     color: #F9FAF8;
     padding: 5px 25px;
+    border: 1px solid black;
 }
 
 #hero-sub {
@@ -94,8 +97,36 @@ button {
 }
 
 .empty-image {
-    border: 1px solid blue;
+    border: 3px solid blue;
     border-radius: 10px;
     height: 150px;
     width: 150px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#quote-person {
+    font-weight: bold;
+    font-size: 18px;
+    align-self: flex-end;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 825px;
+}
+
