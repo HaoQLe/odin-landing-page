@@ -1,3 +1,19 @@
 body {
-    font-family: Roboto;
+    font-family: 'Roboto';
+}
+
+.header {
+    font-size: 24px;    
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-links {
+    font-size: 18px;    
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
